@@ -31,6 +31,41 @@
                 $paquet_brasse[] .= $paquet2[$i];
 
         }
-            ?>
+
+        echo "<table border=1>";
+        echo"<tr>";
+        for ($j = 0; $j < 13; $j++)
+        {
+
+            echo"<th>$paquet_brasse[$j]</th>";
+            
+        }
+        echo"</tr>";
+        echo"<tr>";
+        for ($k = 13; $k < 26; $k++)
+        {
+
+            echo"<th>$paquet_brasse[$k]</th>";
+            
+        }
+        echo"</tr>";
+        echo"<tr>";
+        for ($l = 26; $l < 39; $l++)
+        {
+
+            echo"<th>$paquet_brasse[$l]</th>";
+            
+        }
+        echo"</tr>";
+        echo"<tr>";
+        for ($m = 39; $m <= 51; $m++)
+        {
+
+            echo"<th>$paquet_brasse[$m]</th>";
+            
+        }
+        echo"</tr>";
+        echo "</table>";
+        ?>
 </body>
 </html>
