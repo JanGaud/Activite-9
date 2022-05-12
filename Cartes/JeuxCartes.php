@@ -22,7 +22,15 @@
             }
         
         }
-        
-    ?>
+        $paquet1 = array_slice($jeu_complet,0, 26);
+        $paquet2 = array_slice($jeu_complet,26, 51);
+
+        for($i = 0; $i <= count($paquet1)-1; $i++)
+        {
+                $paquet_brasse[] .= $paquet1[$i];
+                $paquet_brasse[] .= $paquet2[$i];
+
+        }
+            ?>
 </body>
 </html>
