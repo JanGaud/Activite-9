@@ -15,6 +15,14 @@
         $paquet2 = [];
         $paquet_brasse = [];
 
+        foreach ($cartes_figures as $figure){
+
+            foreach ($cartes_nombres as $nombre ){
+                $jeu_complet[] .= $nombre . " ".  $figure;
+            }
+        
+        }
+        
     ?>
 </body>
 </html>
